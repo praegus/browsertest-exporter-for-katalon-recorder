@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Options</title>
+        <style>
+            body {
+                width: 320px;
+                font-size: 14px;
+                padding: 15px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                line-height: 20px;
+            }
+
+            p:first-child {
+                margin-top: 0;
+            }
+
+            .muted {
+                color: #666;
+            }
+
+            .small {
+                font-size: 0.8em;
+            }
+
+            table {
+                width: 100%;
+            }
+            table td {
+                border-top: 1px solid #eee;
+                padding-top: 5px;
+                vertical-align: middle;
+            }
+            table td:first-child {
+                text-align: left;
+            }
+            table td:last-child {
+                text-align: right;
+                line-height: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>
+                This extension adds HSAC BrowserTest FitNesse Export to the
+                <b><a href="https://chrome.google.com/webstore/detail/katalon-recorder/ljdobmomdgdljniojadhoplhkpialdid" target="blank">Katalon Recorder</a></b> extension.
+                You must have it installed in order to use this extension.
+            </p>
+            
+            <p class="muted">
+                Note: If you do not see BrowserTest as an option in the Export tab, please close Katalon Recorder and reopen it.
+            </p>
+            <p class="muted small">
+                More Info on BrowserTest: (<a href="https://github.com/fhoeben/hsac-fitnesse-fixtures" target="blank">HSAC FitNesse Fixtures of GitHub</a>)
+            </p>
+            <p class="muted small">
+                This Extension is based on the Puppeteer Export extension by Sam Kirkland (<a href="https://github.com/SamKirkland/Puppeteer-exporter-for-Katalon-Recorder" target="blank">GitHub</a>)
+            </p>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="small">
+                            Found a bug, or do you want more methods supported? Submit an issue (or create a PR):
+                        </td>
+                        <td>
+                            <a class="github-button" data-size="large" href="https://github.com/praegus/browsertest-exporter-for-katalon-recorder/issues" data-icon="octicon-issue-opened" aria-label="Issue praegus/browsertest-exporter-for-katalon-recorder on GitHub">Issue</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="small">
+                            Appreciate this extension? Star it on github!
+                        </td>
+                        <td>
+                            <a class="github-button" data-size="large" href="https://github.com/praegus/browsertest-exporter-for-katalon-recorder" data-icon="octicon-star" aria-label="Star praegus/browsertest-exporter-for-katalon-recorder on GitHub">Star</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <script src="popup.js"></script>
+    </body>
+</html>
