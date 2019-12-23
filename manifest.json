@@ -1,11 +1,10 @@
 {
     "update_url": "https://clients2.google.com/service/update2/crx",
     "manifest_version": 2,
-    "name": "BrowserTest FitNesse exporter for Katalon Recorder",
+    "name": "FitNesse exporter for Katalon Recorder",
     "short_name": "BrowserTest Export",
     "description": "This extension adds HSAC BrowserTest FitNesse Export to the Katalon Recorder Extension",
     "version": "0.0.2",
-    "default_locale": "en",
     "author": "Tom Heintzberger - Praegus B.V.",
     "background": {
         "scripts": [
